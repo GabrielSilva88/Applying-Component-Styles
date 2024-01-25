@@ -1,17 +1,23 @@
 // biblioteca do css "npm install styled-components"
 
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import {Container, Titulo} from './src/style';
+
+import styled from 'styled-components/native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Container>
+      <Titulo>Styled Componentes: CSS para java script</Titulo>
+    </Container>
   );
 }
 
+/**
+ *  imprementado src/style.js
+ */
+
+/* alterado 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -20,3 +26,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+*/
